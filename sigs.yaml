@@ -1,0 +1,16 @@
+Meta:
+  chairs:
+    - name: Melvin Hillsman
+      irc: mrhillsman
+      email: melvin.hillsman@huawei.com
+    - name: Thierry Carrez
+      irc: ttx
+      email: thierry@openstack.org
+  scope: >
+    A SIG for SIGs so to speak. A SIG to discuss OpenStack SIGs themselves,
+    to encourage workgroups to become SIGs, accompany them along the way,
+    give them tools and processes to be efficient. More generally, this SIG
+    will discuss how to best close the loop between users and developers of
+    OpenStack.
+  status: active
+  url: https://governance.openstack.org/sigs
