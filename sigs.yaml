@@ -1,3 +1,74 @@
+API:
+  chairs:
+    - name: Chris Dent
+      irc: cdent
+      email: cdent+os@anticdent.org
+    - name: Ed Leafe
+      irc: edleafe
+      email: ed@leafe.com
+    - name: Michael McCune
+      irc: elmiko
+      email: msm@redhat.com
+  scope: >
+    Formerly known as the API-WG, the API SIG scope is to improve the developer
+    experience of API users by converging the OpenStack API to a consistent and
+    pragmatic RESTful design. The working group creates guidelines that all
+    OpenStack projects should follow for new development, and promotes
+    convergence of new APIs and future versions of existing APIs.
+  status: active
+  url: https://wiki.openstack.org/wiki/API_SIG
+
+FEMDC:
+  chairs:
+    - name: Adrien Lebre
+      irc: ad_rien_
+      email: lebre.adrien@free.fr
+    - name: Paul-Andre Raymond
+      irc: parus
+      email: paul-andre.raymond@nexius.com
+  scope: >
+    The goal of the FEMDC SIG (formerly Fog/Edge/Massively Distributed Clouds
+    Working Group) is to debate and investigate how OpenStack can address
+    Fog/Edge Computing use-cases (i.e. the supervision and use of a large
+    number of remote data centers through a collaborative distributed
+    OpenStack system).
+  status: active
+  url: https://wiki.openstack.org/wiki/Fog_Edge_Massively_Distributed_Clouds
+
+Scientific:
+  chairs:
+    - name: Blair Bethwaite
+      irc: b1airo
+      email: blair.bethwaite@gmail.com
+    - name: Stig Telfer
+      irc: oneswig
+      email: stig.openstack@telfer.org
+    - name: Martial Michel
+      irc: martial_
+      email: martialmichel@datamachines.io
+  scope: >
+    The Scientific SIG (formerly Scientific Working Group) is dedicated to
+    representing and advancing the use-cases and needs of research and
+    high-performance computing atop OpenStack. It's also a great forum for
+    cross-institutional collaboration. If you are (or would like to) run
+    OpenStack to support researchers/scientists/academics and/or HPC/HTC,
+    then please join!
+  status: active
+  url: https://wiki.openstack.org/wiki/Scientific_SIG
+
+Self-healing:
+  chairs:
+    - name: Adam Spiers
+      irc: aspiers
+      email: aspiers@suse.com
+  scope: >
+    Coordinate the use and development of several OpenStack projects which
+    can be combined in various ways to manage OpenStack infrastructure in a
+    policy-driven fashion, reacting to failures and other events by
+    automatically healing and optimising services.
+  status: active
+  url: https://wiki.openstack.org/wiki/Self-healing_SIG
+
 Meta:
   chairs:
     - name: Melvin Hillsman
