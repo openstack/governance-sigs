@@ -22,53 +22,34 @@ from docutils.parsers.rst import directives
 import yaml
 
 
-class TeamTable(Table):
+class SIGTable(Table):
     """Insert the members table using the referenced file as source.
     """
     HEADERS = ('Name', 'Chairs', 'Scope')
+    WIDTHS = [15, 25, 60]
 
     option_spec = {'class': directives.class_option,
                    'name': directives.unchanged,
                    'datafile': directives.unchanged,
-                   'headers': directives.unchanged,
                    }
     def run(self):
         env = self.state.document.settings.env
         app = env.app
 
-        if self.options.get('headers') is not None:
-            self.HEADERS = self.options.get('headers').split(",")
         # The required argument to the directive is the name of the
         # file to parse.
         datafile = self.options.get('datafile')
         if not datafile:
             error = self.state_machine.reporter.error(
-                'No filename in teamtable directive',
+                'No filename in sigtable directive',
                 nodes.literal_block(self.block_text, self.block_text),
                 line=self.lineno)
-            return [error]
-
-        # Handle the width settings and title
-        try:
-            # Since docutils 0.13, get_column_widths returns a (widths,
-            # colwidths) tuple, where widths is a string (i.e. 'auto').
-            # See https://sourceforge.net/p/docutils/patches/120/.
-            col_widths = self.get_column_widths(len(self.HEADERS))
-            title, messages = self.make_title()
-        except SystemMessagePropagation as detail:
-            return [detail.args[0]]
-        except Exception as err:
-            error = self.state_machine.reporter.error(
-                'Error processing memberstable directive:\n%s' % err,
-                nodes.literal_block(self.block_text, self.block_text),
-                line=self.lineno,
-                )
             return [error]
 
         # Now find the real path to the file, relative to where we are.
         rel_filename, filename = env.relfn2path(datafile)
 
-        app.info('loading teamtable')
+        app.info('loading sigtable')
         app.info('reading %s' % filename)
         with open(filename, 'r') as f:
             _teams_yaml = yaml.load(f.read())
@@ -80,7 +61,7 @@ class TeamTable(Table):
         tgroup = nodes.tgroup(cols=len(self.HEADERS))
         table += tgroup
         tgroup.extend(nodes.colspec(colwidth=col_width)
-                      for col_width in col_widths)
+                      for col_width in self.WIDTHS)
 
         # Set the headers
         thead = nodes.thead()
@@ -130,11 +111,8 @@ class TeamTable(Table):
         table['classes'] += self.options.get('class', [])
         self.add_name(table)
 
-        if title:
-            table.insert(0, title)
-
-        return [table] + messages
+        return [table]
 
 
 def setup(app):
-    app.add_directive('teamtable', TeamTable)
+    app.add_directive('sigtable', SIGTable)

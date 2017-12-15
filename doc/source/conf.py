@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.join(os.path.abspath('.'), '_exts'))
 extensions = [
     'sphinx.ext.extlinks',
     'oslosphinx',
-    'teamtable',
+    'sigtable',
 ]
 
 todo_include_todos = True

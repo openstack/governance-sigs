@@ -9,5 +9,5 @@ as a whole and is not directly tied to a specific governance body.
 Existing SIGs
 =============
 
-.. teamtable::
+.. sigtable::
       :datafile: ../../sigs.yaml
