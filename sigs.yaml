@@ -35,6 +35,19 @@ FEMDC:
   status: active
   url: https://wiki.openstack.org/wiki/Fog_Edge_Massively_Distributed_Clouds
 
+First Contact:
+  chairs:
+    - name: Kendall Nelson
+      irc: diablo_rojo
+      email: knelson@openstack.org
+  scope: >
+    To provide a place and group of people for new contributors to come to for
+    information and advice. New contributors are the future of OpenStack and the
+    surrounding community. Its important to make sure they feel welcome and give
+    them the tools to succeed.
+  status: active
+  url: https://wiki.openstack.org/wiki/First_Contact_SIG
+
 Resource Management:
   chairs:
     - name: Howard Huang
