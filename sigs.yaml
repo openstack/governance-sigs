@@ -35,6 +35,26 @@ FEMDC:
   status: active
   url: https://wiki.openstack.org/wiki/Fog_Edge_Massively_Distributed_Clouds
 
+Resource Management:
+  chairs:
+    - name: Howard Huang
+      irc: zhipeng
+      email: huangzhipeng@huawei.com
+    - name: Chris Dent
+      irc: cdent
+      email: cdent+os@anticdent.org
+    - name: Jay Pipes
+      irc: jaypipes
+      email: jaypipes@gmail.com
+  scope: >
+    The Resource Management SIG provides a gathering of similar interested
+    parties and establish an official channel cross different communities,
+    such as Kubernetes (Resource Management WG), Apache Mesos, Open Compute
+    Project and so forth, to focus on alignment of resource management
+    related functionalities.
+  status: active
+  url: https://wiki.openstack.org/wiki/Res_Mgmt_SIG
+
 Scientific:
   chairs:
     - name: Blair Bethwaite
