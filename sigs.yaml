@@ -48,6 +48,28 @@ First Contact:
   status: active
   url: https://wiki.openstack.org/wiki/First_Contact_SIG
 
+K8s:
+  chairs:
+    - name: Chris Hoge
+      irc: hogepodge
+      email: chris@openstack.org
+    - name: David Lyle
+      irc: david-lyle
+      email: dklyle0@gmail.com
+    - name: Robert Morse
+      irc: rjmorse
+      email: robert.morse@ticketmaster.com
+  scope: >
+    Community-local counterpart to the k8s-sig-openstack group, focused on
+    cross community communication and collaboration. Where k8s-sig-openstack
+    spends a good deal of time managing upstream provider code, sig-k8s
+    would likewise be focused on code to support and enable K8s deployments
+    within the OpenStack community. This SIG is directly intertwined with
+    k8s-sig-openstack within the Kubernetes community, with the same sig
+    leadership and meetings.
+  status: active
+  url: https://github.com/kubernetes/community/tree/master/sig-openstack
+
 Resource Management:
   chairs:
     - name: Howard Huang
