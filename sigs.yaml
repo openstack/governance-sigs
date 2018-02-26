@@ -41,10 +41,9 @@ First Contact:
       irc: diablo_rojo
       email: knelson@openstack.org
   scope: >
-    To provide a place and group of people for new contributors to come to for
-    information and advice. New contributors are the future of OpenStack and the
-    surrounding community. Its important to make sure they feel welcome and give
-    them the tools to succeed.
+    To provide a place for new contributors to come for information and advice.
+    This group will also analyze and document successful contribution models while
+    seeking out and providing information to new members of the community.
   status: active
   url: https://wiki.openstack.org/wiki/First_Contact_SIG
 
