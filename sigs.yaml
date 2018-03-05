@@ -116,6 +116,9 @@ Self-healing:
     - name: Adam Spiers
       irc: aspiers
       email: aspiers@suse.com
+    - name: Eric Kao
+      irc: ekcs
+      email: ekcs.openstack@gmail.com
   scope: >
     Coordinate the use and development of several OpenStack projects which
     can be combined in various ways to manage OpenStack infrastructure in a
