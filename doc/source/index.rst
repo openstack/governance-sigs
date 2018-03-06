@@ -16,10 +16,57 @@ end users...), by forming a guild of people with a shared interest.
 SIG communications
 ==================
 
-Communication between SIG members happens on the
-`openstack-sigs mailing-list`_, using a subject [prefix] matching the
-SIG name. SIG work output can of course be posted to other mailing-lists
-as needed to reach other groups.
+Email
+~~~~~
+
+Asynchronous communication between SIG members happens on the
+`openstack-sigs mailing-list`_, using a subject ``[prefix]`` matching
+the SIG name. SIG work output can of course be posted to other
+mailing-lists as needed to reach other groups.
+
+Instant Messaging
+~~~~~~~~~~~~~~~~~
+
+IRC is the preferred method of communication as it aligns with
+historical and `current OpenStack community best practices for simple
+messaging <https://governance.openstack.org/tc/reference/irc.html>`_,
+and is also `required for TC governed projects
+<https://governance.openstack.org/tc/reference/new-projects-requirements.html>`_.
+
+It is understood that for some IRC does not come with enough features by
+default and programming a bot to offer additional features is beyond
+some; skill or patience to create/maintain. If a SIG does decide to use
+an alternative to IRC, we ask that in keeping with `the Four Opens
+<https://governance.openstack.org/tc/reference/opens.html>`_, in
+particular Open Community, that you do so by `ensuring meeting logs are
+stored/archived
+<https://docs.openstack.org/infra/system-config/irc.html#logging>`_.
+
+Slack
+-----
+
+Free team accounts with Slack are not sufficient enough to meet
+archiving/storage of logs alone. A great alternative is to connect
+Slack with IRC and then follow the instructions for logging an IRC
+channel. Refer to https://github.com/ekmartin/slack-irc for a
+Slack+IRC connector; a docker image is also available at
+https://github.com/mrhillsman/dockerize-slack-irc.
+
+Bi-weekly Newsletter/Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We are suggesting to follow a great `tradition
+<https://www.openstack.org/blog/?p=490>`_ started for the `openstack-dev
+mailing list
+<http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev>`_, by
+sending out a newsletter summarising SIG activity on a bi-weekly
+basis. In order to reduce the work on individuals writing and/or reading
+summaries for SIGs, we have `an etherpad
+<https://etherpad.openstack.org/p/openstack-sigs-weekly>`_ which will be
+compiled bi-weekly and sent to the `openstack-sigs mailing list
+<http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-sigs>`_
+and other relevant places. We ask that SIG leaders provide updates as
+they see fit to the etherpad; this is not a requirement.
 
 Process to create a SIG
 =======================
