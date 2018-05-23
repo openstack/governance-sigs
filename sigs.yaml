@@ -110,6 +110,24 @@ Scientific:
   status: active
   url: https://wiki.openstack.org/wiki/Scientific_SIG
 
+Security:
+  chairs:
+    - name: Luke Hinds
+      irc: lhinds
+      email: lhinds@redhat.com
+    - name: Gage Hugo
+      irc: gagehugo
+      email: gagehugo@gmail.com
+  scope: >
+    The Security SIG (formerly Security Project) is responsible for the
+    maintaining the list of security notices in OpenStack. These include
+    OSSN (OpenStack Security Notes), OSSA (OpenStack Security Advisory),
+    and the VMT (Vulnerability Management Team). Other responsibilities
+    of the Security SIG include advocating and working alongside
+    security-focused projects, such as Bandit, Syntribos, and Tatu.
+  status: active
+  url: https://wiki.openstack.org/wiki/Security-SIG
+
 Self-healing:
   chairs:
     - name: Adam Spiers
