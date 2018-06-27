@@ -69,6 +69,20 @@ K8s:
   status: active
   url: https://github.com/kubernetes/community/tree/master/sig-openstack
 
+Operation Docs:
+  chairs:
+    - name: Chris Morgan
+      irc: mihalis68
+      email: mihalis68@gmail.com
+    - name: Sean McGinnis
+      irc: smcginnis
+      email: sean.mcginnis@gmail.com
+  scope: >
+    The Operation Docs SIG is for those interested in operator guide
+    documentation to make running OpenStack clouds easier and more efficient.
+  status: active
+  url: https://wiki.openstack.org/wiki/Operations
+
 Resource Management:
   chairs:
     - name: Howard Huang
