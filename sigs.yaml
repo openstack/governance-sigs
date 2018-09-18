@@ -93,7 +93,7 @@ Operation Docs:
     The Operation Docs SIG is for those interested in operator guide
     documentation to make running OpenStack clouds easier and more efficient.
   status: active
-  url: https://wiki.openstack.org/wiki/Operations
+  url: https://wiki.openstack.org/wiki/Operation_Docs_SIG
 
 Resource Management:
   chairs:
