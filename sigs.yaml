@@ -28,7 +28,7 @@ Extended Maintenance:
     of a common stable branch policy. Keeping CI working on stable branches.
     Creating and improving related tooling and automation.
   status: active
-  url: https://wiki.openstack.org/wiki/StableBranch
+  url: https://docs.openstack.org/project-team-guide/stable-branches.html
 
 FEMDC:
   chairs:
