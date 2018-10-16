@@ -12,14 +12,16 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-"""Build a table of the current teams
-"""
+"""Build a table of the current teams"""
+
+import yaml
 
 from docutils import nodes
 from docutils.parsers.rst.directives.tables import Table
 from docutils.parsers.rst import directives
+from sphinx.util import logging
 
-import yaml
+LOG = logging.getLogger(__name__)
 
 
 class SIGTable(Table):
@@ -34,7 +36,6 @@ class SIGTable(Table):
                    }
     def run(self):
         env = self.state.document.settings.env
-        app = env.app
 
         # The required argument to the directive is the name of the
         # file to parse.
@@ -49,8 +50,8 @@ class SIGTable(Table):
         # Now find the real path to the file, relative to where we are.
         rel_filename, filename = env.relfn2path(datafile)
 
-        app.info('loading sigtable')
-        app.info('reading %s' % filename)
+        LOG.info('loading sigtable')
+        LOG.info('reading %s' % filename)
         with open(filename, 'r') as f:
             _teams_yaml = yaml.load(f.read())
 
