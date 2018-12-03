@@ -52,22 +52,6 @@ channel. Refer to https://github.com/ekmartin/slack-irc for a
 Slack+IRC connector; a docker image is also available at
 https://github.com/mrhillsman/dockerize-slack-irc.
 
-Bi-weekly Newsletter/Summary
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-We are suggesting to follow a great `tradition
-<https://www.openstack.org/blog/?p=490>`_ started for the `openstack-dev
-mailing list
-<http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev>`_, by
-sending out a newsletter summarising SIG activity on a bi-weekly
-basis. In order to reduce the work on individuals writing and/or reading
-summaries for SIGs, we have `an etherpad
-<https://etherpad.openstack.org/p/openstack-sigs-weekly>`_ which will be
-compiled bi-weekly and sent to the `openstack-sigs mailing list
-<http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-sigs>`_
-and other relevant places. We ask that SIG leaders provide updates as
-they see fit to the etherpad; this is not a requirement.
-
 Process to create a SIG
 =======================
 
