@@ -20,9 +20,10 @@ Email
 ~~~~~
 
 Asynchronous communication between SIG members happens on the
-`openstack-sigs mailing-list`_, using a subject ``[prefix]`` matching
-the SIG name. SIG work output can of course be posted to other
-mailing-lists as needed to reach other groups.
+`openstack-discuss mailing-list`_, prefixing the subject with
+``[$signame-sig]`` where ``$signame`` matches the SIG's name. SIG work
+output can of course be posted to other mailing-lists as needed to
+reach other groups.
 
 Instant Messaging
 ~~~~~~~~~~~~~~~~~
@@ -58,7 +59,7 @@ Process to create a SIG
 To propose creation of a SIG, please propose a change to the
 ``sigs.yaml`` file in the ``openstack/governance-sigs`` repository.
 That change will be reviewed by members of the Meta SIG. If you have
-questions, please ask them on the `openstack-sigs mailing-list`_ with
-prefix ``[meta]``.
+questions, please ask them on the `openstack-discuss mailing-list`_
+with subject prefix ``[meta-sig]``.
 
-.. _`openstack-sigs mailing-list`: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-sigs
+.. _`openstack-discuss mailing-list`: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
