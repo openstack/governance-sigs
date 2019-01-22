@@ -18,6 +18,27 @@ API:
   status: active
   url: https://wiki.openstack.org/wiki/API_SIG
 
+Auto-scaling:
+  chairs:
+    - name: Rico Lin
+      irc: ricolin
+      email: rico.lin.guanyu@gmail.com
+    - name: Duc Truong
+      irc: dtruong
+      email: duc.openstack@gmail.com
+    - name: Zane Bitter
+      irc: zaneb
+      email: zbitter@redhat.com
+  scope: >
+    Auto-scaling SIG scope is to improve experience on develop, operate, and use
+    autoscaling and its related features (like metering, cluster schedule,
+    life cycle management) and to coordinate across projects and communities
+    (like k8s cluster autoscaling on OpenStack). Also provide a central place
+    to put tests, documentations, and even common libraries for Auto-scaling
+    features.
+  status: active
+  url: https://wiki.openstack.org/wiki/Auto-scaling_SIG
+
 Extended Maintenance:
   chairs:
     - name: Tony Breeds
