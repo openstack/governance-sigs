@@ -39,6 +39,24 @@ Auto-scaling:
   status: active
   url: https://wiki.openstack.org/wiki/Auto-scaling_SIG
 
+Bare Metal:
+  chairs:
+    - name: Chris Hoge
+      irc: hogepodge
+      email: chris@openstack.org
+  scope: >
+    The scope of the Bare Metal Sig is to promote the development and use
+    of Ironic and other OpenStack bare metal software. This will include
+    marketing efforts like case studies of Ironic clusters in industry
+    and academia, supporting integration of Ironic with projects like
+    Airship and the Kubernetes Cluster API, coordinating presentations
+    for industry events, developing documentation and tutorials,
+    gathering feedback from the community on usage and feature gaps, and
+    other broader community-facing efforts to encourage the adoption of
+    Ironic as a bare-metal management tool.
+  status: active
+  url: https://etherpad.openstack.org/p/bare-metal-sig
+
 Extended Maintenance:
   chairs:
     - name: Tony Breeds
