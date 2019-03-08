@@ -214,9 +214,6 @@ Upgrade:
     - name: James Page
       irc: jamespage
       email: james.page@canonical.com
-    - name: Lee Yarwood
-      irc: lyarwood
-      email: lyarwood@redhat.com
     - name: Lujin Luo
       irc: lujinluo
       email: luo.lujin@jp.fujitsu.com
