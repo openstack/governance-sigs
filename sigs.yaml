@@ -228,12 +228,12 @@ Upgrade:
 
 Meta:
   chairs:
-    - name: Melvin Hillsman
-      irc: mrhillsman
-      email: melvin.hillsman@huawei.com
-    - name: Thierry Carrez
-      irc: ttx
-      email: thierry@openstack.org
+    - name: Matt Van Winkle
+      irc: VW_
+      email: mvanwinkle@salesforce.com
+    - name: Rico Lin
+      irc: ricolin
+      email: rico.lin.guanyu@gmail.com
   scope: >
     A SIG for SIGs so to speak. A SIG to discuss OpenStack SIGs themselves,
     to encourage workgroups to become SIGs, accompany them along the way,
