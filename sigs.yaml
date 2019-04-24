@@ -134,6 +134,21 @@ Operation Docs:
   status: active
   url: https://wiki.openstack.org/wiki/Operation_Docs_SIG
 
+Public Cloud:
+  chairs:
+    - name: Tobias Rydberg
+      irc: tobberydberg
+      email: tobias.rydberg@citynetwork.eu
+    - name: Howard Huang
+      irc: zhipeng
+      email: huangzhipeng@huawei.com
+  scope: >
+     The aim of this sig is to represent the interests of the OpenStack
+     public cloud provider community, and to further adoption of OpenStack
+     public cloud usage.
+  status: active
+  url: https://wiki.openstack.org/wiki/PublicCloudSIG
+
 Resource Management:
   chairs:
     - name: Howard Huang
