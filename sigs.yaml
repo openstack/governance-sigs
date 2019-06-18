@@ -57,6 +57,33 @@ Bare Metal:
   status: active
   url: https://etherpad.openstack.org/p/bare-metal-sig
 
+Containers:
+  chairs:
+    - name: Jean-Philippe Evrard
+      irc: evrardjp
+      email: jean-philippe@evrard.me
+  scope: >
+    The scope of the Containers SIG is to share practices for the
+    build, deploy, and operate of OpenStack using application
+    containers. This is not another deployment tool of containers.
+    Instead, this SIG should have as members people from the
+    different projects in the business of dealing with OpenStack
+    in application containers. The participants should be
+    interested in container building, willing to share their
+    practices, and/or define common practices for use within
+    all OpenStack projects. One example of the deliverables of
+    the SIG would be a common series of "rules" for the bindep
+    files relevant for container image building. These rules
+    would then be applied consistenty across all the OpenStack
+    projects, but also maintained over time by this group.
+    Another example of common ground would be sharing how
+    deployment projects are writing their container "check
+    probes", and figure out what can be re-used. In other words,
+    defining together what are application containers "readiness"
+    and "aliveness" for each service project.
+  status: active
+  url: https://etherpad.openstack.org/p/containers-sig
+
 Extended Maintenance:
   chairs:
     - name: Tony Breeds
