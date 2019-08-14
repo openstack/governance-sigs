@@ -1,3 +1,20 @@
+Ansible:
+  chairs:
+    - name: Mohammed Naser
+      irc: mnaser
+      email: mnaser@vexxhost.com
+    - name: Kevin Carter
+      irc: cloudnull
+      email: kecarter@redhat.com
+  scope: >
+    Ansible is an orchestration tool that is becoming increasingly common
+    in usage across many parts of OpenStack.  There are a few deployment
+    projects that are using it, alongside many of our CI systems.  This
+    SIG exists to help create a colloborative space between different
+    interested parties to share Ansible code under one group.
+  status: active
+  url: https://etherpad.openstack.org/p/ansible-sig
+
 API:
   chairs:
     - name: Chris Dent
