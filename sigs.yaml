@@ -54,7 +54,7 @@ Auto-scaling:
     to put tests, documentations, and even common libraries for Auto-scaling
     features.
   status: active
-  url: https://wiki.openstack.org/wiki/Auto-scaling_SIG
+  url: https://docs.openstack.org/auto-scaling-sig
 
 Bare Metal:
   chairs:
