@@ -181,6 +181,29 @@ Operation Docs:
   status: active
   url: https://wiki.openstack.org/wiki/Operation_Docs_SIG
 
+PowerVMStacker:
+  chairs:
+    - name: Ramakrishnan Ramasubbu
+      irc: SriRamaSan
+      email: RR00462393@techmahindra.com
+    - name: Anurag Mahanto
+      irc: anuragmahanto67
+      email: Anurag.Mahanto@TechMahindra.com
+  scope: >
+    The scope of the PowerVMStacker is to provide OpenStack support for the
+    POWER CPU architecture on the PowerVM hypervisor.
+    This enables support of Linux, AIX and IBM i for PowerVM systems.
+    There are currently three supported components of the PowerVM driver -
+    nova-powervm – Support for Nova use cases.
+    ceilometer-powervm – Gathers instance/VM statistics.
+    networking-powervm – An optional Neutron ML2 agent that supports PowerVM
+    Shared Ethernet Adapters (SEAs). Users should utilize this if their environment
+    requires Shared Ethernet. However, they may also use the standard Open vSwitch
+    agent from the Neutron project to support advanced functions such as Security Groups,
+    Quality of Service (QoS), overlay networks (VXLANs) and more.
+  status: active
+  url: https://wiki.openstack.org/wiki/PowerVM
+
 Public Cloud:
   chairs:
     - name: Tobias Rydberg
