@@ -17,12 +17,9 @@ Ansible:
 
 API:
   chairs:
-    - name: Chris Dent
-      irc: cdent
-      email: cdent+os@anticdent.org
-    - name: Ed Leafe
-      irc: edleafe
-      email: ed@leafe.com
+    - name: Dmitry Tantsur
+      irc: dtantsur
+      email: dtantsur@protonmail.com
     - name: Michael McCune
       irc: elmiko
       email: msm@redhat.com
