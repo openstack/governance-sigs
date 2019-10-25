@@ -137,7 +137,7 @@ First Contact:
       email: knelson@openstack.org
     - name: Matt Oliver
       irc: mattoliverau
-      email: matt@oliver.net.au 
+      email: matt@oliver.net.au
   scope: >
     To provide a place for new contributors to come for information and advice.
     This group will also analyze and document successful contribution models while
@@ -166,6 +166,23 @@ K8s:
     leadership and meetings.
   status: active
   url: https://github.com/kubernetes/community/tree/master/sig-openstack
+
+Meta:
+  chairs:
+    - name: Amy Marrich
+      irc: spotz
+      email: amy@demarco.com
+    - name: Rico Lin
+      irc: ricolin
+      email: rico.lin.guanyu@gmail.com
+  scope: >
+    A SIG for SIGs so to speak. A SIG to discuss OpenStack SIGs themselves,
+    to encourage workgroups to become SIGs, accompany them along the way,
+    give them tools and processes to be efficient. More generally, this SIG
+    will discuss how to best close the loop between users and developers of
+    OpenStack.
+  status: active
+  url: https://governance.openstack.org/sigs/
 
 Operation Docs:
   chairs:
@@ -270,19 +287,16 @@ Self-healing:
   status: active
   url: https://wiki.openstack.org/wiki/Self-healing_SIG
 
-Meta:
+Technical Writing:
   chairs:
-    - name: Amy Marrich
-      irc: spotz
-      email: amy@demarco.com
-    - name: Rico Lin
-      irc: ricolin
-      email: rico.lin.guanyu@gmail.com
+    - name: Alexandra Settle
+      irc: asettle
+      email: asettle@suse.com
+    - name: Stephen Finucane
+      irc: stephenfin
+      email: sfinucan@redhat.com
   scope: >
-    A SIG for SIGs so to speak. A SIG to discuss OpenStack SIGs themselves,
-    to encourage workgroups to become SIGs, accompany them along the way,
-    give them tools and processes to be efficient. More generally, this SIG
-    will discuss how to best close the loop between users and developers of
-    OpenStack.
-  status: active
-  url: https://governance.openstack.org/sigs/
+    The technical writing SIG provides guidance, assistance, tooling, and style
+    guides enabling OpenStack project teams to produce consistent, accurate,
+    and high-quality documentation.
+  url: https://wiki.openstack.org/wiki/Documentation , https://docs.openstack.org/
