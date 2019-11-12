@@ -106,6 +106,9 @@ Extended Maintenance:
     - name: Tony Breeds
       irc: tonyb
       email: tony@bakeyournoodle.com
+    - name: Elõd Illés
+      irc: elod
+      email: elod.illes@est.tech
   scope: >
     Defining, enforcing and accompanying project teams in the application
     of a common stable branch policy. Keeping CI working on stable branches.
