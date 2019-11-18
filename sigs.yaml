@@ -58,9 +58,12 @@ Auto-scaling:
 
 Bare Metal:
   chairs:
-    - name: Chris Hoge
-      irc: hogepodge
-      email: chris@openstack.org
+    - name: Arne Wiebalck
+      irc: arne_wiebalck
+      email: arne.wiebalck@cern.ch
+    - name: Dmitry Tantsur
+      irc: dtantsur
+      email: dtantsur@protonmail.com
   scope: >
     The scope of the Bare Metal Sig is to promote the development and use
     of Ironic and other OpenStack bare metal software. This will include
