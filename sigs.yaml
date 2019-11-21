@@ -104,6 +104,23 @@ Containers:
   status: active
   url: https://etherpad.openstack.org/p/containers-sig
 
+Edge Computing:
+  chairs:
+    - name: Ildiko Vancsa
+      irc: ildikov
+      email: ildiko@openstack.org
+    - name: Gergely Csatari
+      irc: csatari
+      email: gergely.csatari@nokia.com
+  scope: >
+    The Edge Computing group is a OSF-level special interest group focused
+    on defining infrastructure systems needed to support applications
+    distributed over a broad geographic area, with potentially thousands of
+    sites, located as close as possible to discrete data sources, physical
+    elements or end users.
+  status: active
+  url: https://wiki.openstack.org/wiki/Edge_Computing_Group
+
 Extended Maintenance:
   chairs:
     - name: Tony Breeds
@@ -115,23 +132,6 @@ Extended Maintenance:
     Creating and improving related tooling and automation.
   status: active
   url: https://docs.openstack.org/project-team-guide/stable-branches.html
-
-FEMDC:
-  chairs:
-    - name: Adrien Lebre
-      irc: ad_rien_
-      email: lebre.adrien@free.fr
-    - name: Paul-Andre Raymond
-      irc: parus
-      email: paul-andre.raymond@nexius.com
-  scope: >
-    The goal of the FEMDC SIG (formerly Fog/Edge/Massively Distributed Clouds
-    Working Group) is to debate and investigate how OpenStack can address
-    Fog/Edge Computing use-cases (i.e. the supervision and use of a large
-    number of remote data centers through a collaborative distributed
-    OpenStack system).
-  status: active
-  url: https://wiki.openstack.org/wiki/Fog_Edge_Massively_Distributed_Clouds
 
 First Contact:
   chairs:
