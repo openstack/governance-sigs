@@ -101,7 +101,7 @@ Containers:
     probes", and figure out what can be re-used. In other words,
     defining together what are application containers "readiness"
     and "aliveness" for each service project.
-  status: active
+  status: forming
   url: https://etherpad.openstack.org/p/containers-sig
 
 Edge Computing:
@@ -130,7 +130,7 @@ Extended Maintenance:
     Defining, enforcing and accompanying project teams in the application
     of a common stable branch policy. Keeping CI working on stable branches.
     Creating and improving related tooling and automation.
-  status: active
+  status: advisory
   url: https://docs.openstack.org/project-team-guide/stable-branches.html
 
 First Contact:
@@ -167,7 +167,7 @@ K8s:
     within the OpenStack community. This SIG is directly intertwined with
     k8s-sig-openstack within the Kubernetes community, with the same sig
     leadership and meetings.
-  status: active
+  status: advisory
   url: https://github.com/kubernetes/community/tree/master/sig-openstack
 
 Meta:
@@ -244,19 +244,13 @@ Resource Management:
     - name: Howard Huang
       irc: zhipeng
       email: huangzhipeng@huawei.com
-    - name: Chris Dent
-      irc: cdent
-      email: cdent+os@anticdent.org
-    - name: Jay Pipes
-      irc: jaypipes
-      email: jaypipes@gmail.com
   scope: >
     The Resource Management SIG provides a gathering of similar interested
     parties and establish an official channel cross different communities,
     such as Kubernetes (Resource Management WG), Apache Mesos, Open Compute
     Project and so forth, to focus on alignment of resource management
     related functionalities.
-  status: active
+  status: forming
   url: https://wiki.openstack.org/wiki/Res_Mgmt_SIG
 
 Scientific:
@@ -326,3 +320,4 @@ Technical Writing:
     guides enabling OpenStack project teams to produce consistent, accurate,
     and high-quality documentation.
   url: https://wiki.openstack.org/wiki/Documentation , https://docs.openstack.org/
+  status: active
