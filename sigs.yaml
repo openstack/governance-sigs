@@ -171,6 +171,24 @@ K8s:
   status: active
   url: https://github.com/kubernetes/community/tree/master/sig-openstack
 
+Large Scale:
+  chairs:
+    - name: Belmiro Moreira
+      irc: belmoreira
+      email: belmiro.moreira@cern.ch
+    - name: Pengju Jiao
+      irc: jiaopengju
+      email: jiaopengju@cmss.chinamobile.com
+    - name: Thierry Carrez
+      irc: ttx
+      email: thierry@openstack.org
+  scope: >
+    The aim of the group is to facilitate running OpenStack at large scale,
+    and help address some of the limitations operators encounter in large
+    OpenStack clusters.
+  status: active
+  url: https://wiki.openstack.org/wiki/Large_Scale_SIG
+
 Meta:
   chairs:
     - name: Amy Marrich
