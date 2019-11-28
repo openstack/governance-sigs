@@ -1,0 +1,16 @@
+Upgrade:
+  chairs:
+    - name: James Page
+      irc: jamespage
+      email: james.page@canonical.com
+    - name: Lujin Luo
+      irc: lujinluo
+      email: luo.lujin@jp.fujitsu.com
+  scope: >
+    The objective of the Upgrade SIG is to improve the overall upgrade
+    process for OpenStack Clouds, covering both offline 'fast-forward'
+    upgrades and online 'rolling' upgrades, by providing a forum for
+    cross-project collaboration between operators and developers to
+    document and codify best practice for upgrading OpenStack.
+  status: completed
+  url: https://wiki.openstack.org/wiki/Upgrade_SIG

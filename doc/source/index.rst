@@ -63,3 +63,8 @@ questions, please ask them on the `openstack-discuss mailing-list`_
 with subject prefix ``[meta-sig]``.
 
 .. _`openstack-discuss mailing-list`: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
+
+.. toctree::
+   :maxdepth: 1
+
+   reference/sig-status
