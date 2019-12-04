@@ -14,7 +14,7 @@ Ansible:
     SIG exists to help create a colloborative space between different
     interested parties to share Ansible code under one group.
   status: active
-  url: https://etherpad.openstack.org/p/ansible-sig
+  url: https://wiki.openstack.org/wiki/Ansible_SIG
 
 API:
   chairs:
