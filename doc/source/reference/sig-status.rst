@@ -26,6 +26,9 @@ The SIG is not actively meeting or driving specific goals every cycle. SIG
 members stay around for help, make sure everything stays working and
 provide advice when needed.
 
+The SIG will keep the owned repository or documents up to date and will accept
+updates on-demand.
+
 complete
 --------
 
