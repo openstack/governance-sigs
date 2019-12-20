@@ -206,6 +206,18 @@ Meta:
   status: active
   url: https://governance.openstack.org/sigs/
 
+Multi-Arch:
+  chairs:
+    - name: Rico Lin
+      irc: ricolin
+      email: rico.lin.guanyu@gmail.com
+  scope: >
+    This SIG aim to reach better coverage for multiple architecture support in
+    OpenStack. This includes provide documents, building test jobs, tracking
+    issues, and building ecosystem for multiple architecture.
+  status: forming
+  url: https://etherpad.openstack.org/p/Multi-arch
+
 Operation Docs:
   chairs:
     - name: Chris Morgan
