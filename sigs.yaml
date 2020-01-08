@@ -212,9 +212,10 @@ Multi-Arch:
       irc: ricolin
       email: rico.lin.guanyu@gmail.com
   scope: >
-    This SIG aim to reach better coverage for multiple architecture support in
-    OpenStack. This includes provide documents, building test jobs, tracking
-    issues, and building ecosystem for multiple architecture.
+    This SIG tracks and encourages efforts towards better support for OpenStack
+    on CPU architectures other than x86_64. This includes providing documents,
+    building test jobs, tracking issues, and building ecosystem for multiple
+    architectures.
   status: forming
   url: https://etherpad.openstack.org/p/Multi-arch
 
