@@ -211,6 +211,9 @@ Multi-Arch:
     - name: Rico Lin
       irc: ricolin
       email: rico.lin.guanyu@gmail.com
+    - name: Tony Breeds
+      irc: tonyb
+      email: tony@bakeyournoodle.com
   scope: >
     This SIG tracks and encourages efforts towards better support for OpenStack
     on CPU architectures other than x86_64. This includes providing documents,
