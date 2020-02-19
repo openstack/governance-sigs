@@ -33,26 +33,20 @@ API:
   status: active
   url: https://wiki.openstack.org/wiki/API_SIG
 
-Auto-scaling:
+Automation:
   chairs:
     - name: Rico Lin
       irc: ricolin
       email: rico.lin.guanyu@gmail.com
-    - name: Duc Truong
-      irc: dtruong
-      email: duc.openstack@gmail.com
-    - name: Zane Bitter
-      irc: zaneb
-      email: zbitter@redhat.com
   scope: >
-    Auto-scaling SIG scope is to improve experience on develop, operate, and use
-    autoscaling and its related features (like metering, cluster schedule,
-    life cycle management) and to coordinate across projects and communities
-    (like k8s cluster autoscaling on OpenStack). Also provide a central place
-    to put tests, documentations, and even common libraries for Auto-scaling
-    features.
+    Automation SIG scope is to improve experience on develop, operate, and use
+    all automation (includes auto-scaling and self-healing) and its related
+    features (like metering, cluster schedule, life cycle management) and to
+    coordinate across projects and communities (like k8s cluster autoscaling
+    on OpenStack). Also provide a central place to put tests, documentations,
+    and even common libraries for auto-scaling and self-healing features.
   status: active
-  url: https://docs.openstack.org/auto-scaling-sig
+  url: https://etherpad.openstack.org/p/Automation
 
 Bare Metal:
   chairs:
@@ -325,22 +319,6 @@ Security:
     autonomous subgroup of the Security SIG.
   status: active
   url: https://wiki.openstack.org/wiki/Security-SIG
-
-Self-healing:
-  chairs:
-    - name: Adam Spiers
-      irc: aspiers
-      email: aspiers@suse.com
-    - name: Eric Kao
-      irc: ekcs
-      email: ekcs.openstack@gmail.com
-  scope: >
-    Coordinate the use and development of several OpenStack projects which
-    can be combined in various ways to manage OpenStack infrastructure in a
-    policy-driven fashion, reacting to failures and other events by
-    automatically healing and optimising services.
-  status: active
-  url: https://wiki.openstack.org/wiki/Self-healing_SIG
 
 Technical Writing:
   chairs:
