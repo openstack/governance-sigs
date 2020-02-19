@@ -169,7 +169,7 @@ K8s:
     k8s-sig-openstack within the Kubernetes community, with the same sig
     leadership and meetings.
   status: advisory
-  url: https://github.com/kubernetes/community/tree/master/sig-openstack
+  url: https://github.com/kubernetes/cloud-provider-openstack/blob/master/README.md
 
 Large Scale:
   chairs:
