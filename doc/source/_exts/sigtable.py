@@ -27,13 +27,14 @@ LOG = logging.getLogger(__name__)
 class SIGTable(Table):
     """Insert the members table using the referenced file as source.
     """
-    HEADERS = ('Name', 'Chairs', 'Scope')
-    WIDTHS = [15, 25, 60]
+    HEADERS = ('Name', 'Status', 'Chairs', 'Scope')
+    WIDTHS = [15, 15, 25, 60]
 
     option_spec = {'class': directives.class_option,
                    'name': directives.unchanged,
                    'datafile': directives.unchanged,
                    }
+
     def run(self):
         env = self.state.document.settings.env
 
@@ -87,7 +88,14 @@ class SIGTable(Table):
             # Iterate over the headers in the same order every time.
             for h in self.HEADERS:
                 if h.lower() == "name":
-                    cell = "<a href=\"%s\">%s</a>" % (all_teams[team]['url'], team)
+                    cell = "<a href=\"%s\">%s</a>" % (all_teams[team]['url'],
+                                                      team)
+                    entry = nodes.entry()
+                    para = nodes.raw('', cell, format='html')
+                elif h.lower() == "status":
+                    cell = ("<a href=https://governance.openstack.org/sigs/"
+                            "reference/sig-status.html>%s</a>"
+                            ) % all_teams[team]['status']
                     entry = nodes.entry()
                     para = nodes.raw('', cell, format='html')
                 elif h.lower() == "chairs":
