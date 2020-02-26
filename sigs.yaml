@@ -13,6 +13,7 @@ Ansible:
     projects that are using it, alongside many of our CI systems.  This
     SIG exists to help create a colloborative space between different
     interested parties to share Ansible code under one group.
+    It is also responsible of the OpenStack namespace on Ansible's galaxy.
   status: active
   url: https://wiki.openstack.org/wiki/Ansible_SIG
 
