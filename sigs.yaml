@@ -335,3 +335,15 @@ Technical Writing:
     and high-quality documentation.
   url: https://wiki.openstack.org/wiki/Documentation , https://docs.openstack.org/
   status: active
+
+Testing and Collaboration Tools:
+  chairs:
+    - name: Jeremy Stanley
+      irc: fungi
+      email: fungi@yuggoth.org
+  scope: >
+    The Testing and Collaboration Tools (TaCT) SIG maintains, in cooperation
+    with the OpenDev project, the tooling and infrastructure needed to support
+    the development process and testing of the OpenStack project.
+  url: https://wiki.openstack.org/wiki/Documentation
+  status: active
