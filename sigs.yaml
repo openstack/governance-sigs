@@ -333,7 +333,7 @@ Technical Writing:
     The technical writing SIG provides guidance, assistance, tooling, and style
     guides enabling OpenStack project teams to produce consistent, accurate,
     and high-quality documentation.
-  url: https://wiki.openstack.org/wiki/Documentation , https://docs.openstack.org/
+  url: https://wiki.openstack.org/wiki/Documentation
   status: active
 
 Testing and Collaboration Tools:
