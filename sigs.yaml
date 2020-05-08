@@ -345,5 +345,5 @@ Testing and Collaboration Tools:
     The Testing and Collaboration Tools (TaCT) SIG maintains, in cooperation
     with the OpenDev project, the tooling and infrastructure needed to support
     the development process and testing of the OpenStack project.
-  url: https://wiki.openstack.org/wiki/Documentation
+  url: tact-sig.html
   status: active

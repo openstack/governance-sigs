@@ -14,6 +14,11 @@ end users...), by forming a guild of people with a shared interest.
       :datafile: ../../sigs.yaml
 
 .. toctree::
+   :hidden:
+
+   tact-sig
+
+.. toctree::
    :maxdepth: 4
 
    reference/sig-guideline
