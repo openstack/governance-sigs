@@ -144,6 +144,17 @@ First Contact:
   status: active
   url: https://wiki.openstack.org/wiki/First_Contact_SIG
 
+i18n:
+  chairs:
+    - name: Ian Y. Choi
+      irc: ianychoi
+      email: ianyrchoi@gmail.com
+  scope: >
+    To make OpenStack ubiquitously accessible to people of
+    all language backgrounds.
+  status: active
+  url: https://wiki.openstack.org/wiki/I18nTeam
+
 K8s:
   chairs:
     - name: Chris Hoge
