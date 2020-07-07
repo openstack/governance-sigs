@@ -77,12 +77,13 @@ Cloud Research:
       email: m2elsakha@gmail.com
   scope: >
     The Cloud Research SIG aims to bridge the gap between Academic
-    Research in Cloud Computing and Technology projects within OpenStack
-    by establishing a collaboration space for Cloud researchers to discuss
-    advancements in Cloud research and methodologies to implement them in
-    OpenStack. The group is also a communication space for researchers that
-    are looking for guidance on how to evaluate their research work ( e.g.,
-    placement algorithms, model-free frameworks...etc.) in Openstack.
+    Research in Cloud Computing and Technology projects within OpenStack.
+    The group's purpose is to establish a collaboration space for Cloud
+    researchers to discuss advancements in Cloud research and methodologies
+    and to implement them in OpenStack. The group is also a communication
+    space for researchers looking for guidance on how to evaluate their
+    research work ( e.g., placement algorithms, model-free frameworks...etc.)
+    in Openstack.
   status: forming
   url: https://etherpad.opendev.org/p/cloud-research-sig
 
