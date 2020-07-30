@@ -245,7 +245,7 @@ Multi-Arch:
   status: forming
   url: https://etherpad.openstack.org/p/Multi-arch
 
-Operation Docs:
+Operation Docs and Tooling:
   chairs:
     - name: Chris Morgan
       irc: mihalis68
@@ -254,8 +254,9 @@ Operation Docs:
       irc: smcginnis
       email: sean.mcginnis@gmail.com
   scope: >
-    The Operation Docs SIG is for those interested in operator guide
-    documentation to make running OpenStack clouds easier and more efficient.
+    The Operation Docs and Tooling SIG is for those interested in operator
+    guide documentation and tools, scripts, and other code to make running
+    OpenStack clouds easier and more efficient.
   status: active
   url: https://wiki.openstack.org/wiki/Operation_Docs_SIG
 
