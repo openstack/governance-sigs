@@ -161,6 +161,22 @@ First Contact:
   status: active
   url: https://wiki.openstack.org/wiki/First_Contact_SIG
 
+Hardware Vendor:
+  chairs:
+    - name: Sean McGinnis
+      irc: smcginnis
+      email: sean.mcginnis@gmail.com
+    - name: Jay Bryant
+      irc: jungleboyj
+      email: jsbryant@electronicjungle.net
+  scope: >
+    The goals of this SIG are to provide a place where vendors, and those
+    interested in vendor specific things like drivers and supporting libs,
+    can work together and collaborate openly to enable OpenStack services to
+    integrate and work well on all hardware platforms.
+  status: forming
+  url: https://wiki.openstack.org/wiki/Hardware_Vendor_SIG
+
 i18n:
   chairs:
     - name: Ian Y. Choi
