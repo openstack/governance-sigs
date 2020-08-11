@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenStack SIG Governance'
-copyright = u'2017, OpenStack Meta SIG'
+copyright = u'2020, OpenStack TC'
 
 # openstackdocstheme options
 openstackdocs_repo_name = 'openstack/governance-sigs'
@@ -197,7 +197,7 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
   ('index', 'Governance.tex', u'OpenStack Governance Documents',
-   u'OpenStack Meta SIG', 'manual'),
+   u'OpenStack TC', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -241,7 +241,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Governance', u'OpenStack Governance Documents',
-   u'OpenStack Meta SIG', 'Governance', 'One line description of project.',
+   u'OpenStack TC', 'Governance', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -260,9 +260,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'OpenStack SIG Governance'
-epub_author = u'OpenStack Meta SIG'
-epub_publisher = u'OpenStack Meta SIG'
-epub_copyright = u'2017, OpenStack Meta SIG'
+epub_author = u'OpenStack TC'
+epub_publisher = u'OpenStack TC'
+epub_copyright = u'2020, OpenStack TC'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
