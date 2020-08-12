@@ -3,12 +3,19 @@
 ================
 
 The OpenStack SIGs (Special Interest Groups) are a form of
-working group in OpenStack that is an emanation of the community
-as a whole and is not directly tied to a specific governance body.
+working group in OpenStack that is not directly responsible for
+producing a part of the OpenStack software release. As such, they
+do not require the same level of accountability that project teams
+do.
 
 SIGs are a good match for an activity that centers around a topic
 or practice that spans all the community (developers, operators,
 end users...), by forming a guild of people with a shared interest.
+
+SIGs can own code repositories and produce software (independently
+of the OpenStack software release itself). Contributions to a SIG
+grant voting rights for the Technical Committee elections, in the
+same way contributing to an OpenStack project team does.
 
 .. sigtable::
       :datafile: ../../sigs.yaml
