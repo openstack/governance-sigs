@@ -13,9 +13,7 @@ a first stage in the development of new projects, feature requests, standards
 adoption, policy implementation, adjacent community work, and just general
 discussion(s).
 
-General governance of all SIGs are managed by Meta SIG. You can find Meta SIG
-chairs in  `SIGs`_ or send mail in `OpenStack-discuss mailing-list`_ with
-[meta-sig] tag on.
+SIGs are governed by the `OpenStack Technical Committee`_.
 
 Finding a SIG
 =============
@@ -365,6 +363,7 @@ example, once your SIG creates nice documents that you believe will help
 others, you can send a mailing list for it, and also mention it in IRC/Slack.
 
 .. _Comparison of Official Group Structures: https://governance.openstack.org/tc/reference/comparison-of-official-group-structures.html
+.. _OpenStack Technical Committee: https://governance.openstack.org/tc/
 .. _SIGs: https://governance.openstack.org/sigs/
 .. _SIG Governance: https://opendev.org/openstack/governance-sigs/src/branch/master/sigs.yaml
 .. _Set up SIG communications: https://governance.openstack.org/sigs/#sig-communications
