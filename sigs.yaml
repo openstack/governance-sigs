@@ -174,7 +174,7 @@ Hardware Vendor:
     interested in vendor specific things like drivers and supporting libs,
     can work together and collaborate openly to enable OpenStack services to
     integrate and work well on all hardware platforms.
-  status: forming
+  status: active
   url: https://wiki.openstack.org/wiki/Hardware_Vendor_SIG
 
 i18n:
