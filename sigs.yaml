@@ -1,9 +1,9 @@
 ---
 Ansible:
   chairs:
-    - name: Mohammed Naser
-      irc: mnaser
-      email: mnaser@vexxhost.com
+    - name: Sagi Shnaidman
+      irc: sshnaidm
+      email: sshnaidm@redhat.com
     - name: Kevin Carter
       irc: cloudnull
       email: kecarter@redhat.com
