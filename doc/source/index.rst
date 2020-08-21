@@ -29,8 +29,3 @@ same way contributing to an OpenStack project team does.
    :maxdepth: 4
 
    reference/sig-guideline
-
-.. toctree::
-   :maxdepth: 1
-
-   reference/sig-status

@@ -93,9 +93,10 @@ class SIGTable(Table):
                     entry = nodes.entry()
                     para = nodes.raw('', cell, format='html')
                 elif h.lower() == "status":
-                    cell = ("<a href=https://governance.openstack.org/sigs/"
-                            "reference/sig-status.html>%s</a>"
-                            ) % all_teams[team]['status']
+                    s = all_teams[team]['status'].lower()
+                    cell = ('<a href="https://governance.openstack.org/sigs/'
+                            'reference/sig-guideline.html#%s">%s</a>'
+                            ) % (s, s)
                     entry = nodes.entry()
                     para = nodes.raw('', cell, format='html')
                 elif h.lower() == "chairs":

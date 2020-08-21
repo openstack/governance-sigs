@@ -12,5 +12,4 @@ Upgrade:
     upgrades and online 'rolling' upgrades, by providing a forum for
     cross-project collaboration between operators and developers to
     document and codify best practice for upgrading OpenStack.
-  status: completed
   url: https://wiki.openstack.org/wiki/Upgrade_SIG
