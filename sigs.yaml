@@ -259,6 +259,18 @@ Operation Docs and Tooling:
   status: active
   url: https://wiki.openstack.org/wiki/Operation_Docs_SIG
 
+Packaging:
+  chairs:
+    - name: Javier Peña
+      irc: jpena
+      email: jpena@redhat.com
+  scope: >
+    To make OpenStack easier to update and consume by operators and
+    provide tooling to package all OpenStack projects directly for
+    (at first) all RPM based distributions.
+  status: active
+  url: https://wiki.openstack.org/wiki/Rpm-packaging
+
 PowerVMStacker:
   chairs:
     - name: Ramakrishnan Ramasubbu
