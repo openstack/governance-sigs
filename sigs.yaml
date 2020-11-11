@@ -31,7 +31,7 @@ API:
     pragmatic RESTful design. The working group creates guidelines that all
     OpenStack projects should follow for new development, and promotes
     convergence of new APIs and future versions of existing APIs.
-  status: active
+  status: advisory
   url: https://wiki.openstack.org/wiki/API_SIG
 
 Automation:
