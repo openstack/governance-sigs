@@ -55,8 +55,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenStack SIG Governance'
-copyright = u'2020, OpenStack TC'
+project = 'OpenStack SIG Governance'
+copyright = '2020, OpenStack TC'
 
 # openstackdocstheme options
 openstackdocs_repo_name = 'openstack/governance-sigs'
@@ -196,8 +196,8 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass
 # [howto/manual]).
 latex_documents = [
-  ('index', 'Governance.tex', u'OpenStack Governance Documents',
-   u'OpenStack TC', 'manual'),
+  ('index', 'Governance.tex', 'OpenStack Governance Documents',
+   'OpenStack TC', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -240,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Governance', u'OpenStack Governance Documents',
-   u'OpenStack TC', 'Governance', 'One line description of project.',
+  ('index', 'Governance', 'OpenStack Governance Documents',
+   'OpenStack TC', 'Governance', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -259,10 +259,10 @@ texinfo_documents = [
 # ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'OpenStack SIG Governance'
-epub_author = u'OpenStack TC'
-epub_publisher = u'OpenStack TC'
-epub_copyright = u'2020, OpenStack TC'
+epub_title = 'OpenStack SIG Governance'
+epub_author = 'OpenStack TC'
+epub_publisher = 'OpenStack TC'
+epub_copyright = '2020, OpenStack TC'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
