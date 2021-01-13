@@ -3,6 +3,4 @@
 # process, which may cause wedges in the gate later.
 # needed for doc build
 docutils>=0.11,!=0.13.1  # OSI-Approved Open Source, Public Domain
-sphinx>=2.0.0,!=2.1.0 # BSD
-openstackdocstheme>=2.2.1 # Apache-2.0
 yamllint
