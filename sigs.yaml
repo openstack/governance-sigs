@@ -258,6 +258,9 @@ Packaging:
     - name: Javier Peña
       irc: jpena
       email: jpena@redhat.com
+    - name: Dirk Mueller
+      irc: dirk
+      email: dirk@dmllr.de
   scope: >
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
