@@ -46,7 +46,7 @@ Automation:
     coordinate across projects and communities (like k8s cluster autoscaling
     on OpenStack). Also provide a central place to put tests, documentations,
     and even common libraries for auto-scaling and self-healing features.
-  status: active
+  status: advisory
   url: https://etherpad.openstack.org/p/Automation
 
 Bare Metal:
@@ -235,7 +235,7 @@ Multi-Arch:
     on CPU architectures other than x86_64. This includes providing documents,
     building test jobs, tracking issues, and building ecosystem for multiple
     architectures.
-  status: forming
+  status: active
   url: https://etherpad.openstack.org/p/Multi-arch
 
 Operation Docs and Tooling:
