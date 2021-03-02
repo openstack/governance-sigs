@@ -160,15 +160,12 @@ i18n:
 
 K8s:
   chairs:
-    - name: Chris Hoge
-      irc: hogepodge
-      email: chris@openstack.org
-    - name: David Lyle
-      irc: david-lyle
-      email: dklyle0@gmail.com
-    - name: Robert Morse
-      irc: rjmorse
-      email: robert.morse@ticketmaster.com
+    - name: Feilong Wang
+      irc: flwang
+      email: feilong@catalyst.net.nz
+    - name: Kendall Nelson
+      irc: diablo_rojo
+      email: kennelson11@gmail.com
   scope: >
     Community-local counterpart to the k8s-sig-openstack group, focused on
     cross community communication and collaboration. Where k8s-sig-openstack
