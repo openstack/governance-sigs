@@ -38,7 +38,7 @@ Automation:
   chairs:
     - name: Rico Lin
       irc: ricolin
-      email: rico.lin.guanyu@gmail.com
+      email: ricolin@ricolky.com
   scope: >
     Automation SIG scope is to improve experience on develop, operate, and use
     all automation (includes auto-scaling and self-healing) and its related
@@ -229,7 +229,7 @@ Multi-Arch:
   chairs:
     - name: Rico Lin
       irc: ricolin
-      email: rico.lin.guanyu@gmail.com
+      email: ricolin@ricolky.com
   scope: >
     This SIG tracks and encourages efforts towards better support for OpenStack
     on CPU architectures other than x86_64. This includes providing documents,
