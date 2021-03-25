@@ -29,3 +29,22 @@ same way contributing to an OpenStack project team does.
    :maxdepth: 4
 
    reference/sig-guideline
+
+Retired SIGs
+============
+
+Archived SIGs
+-------------
+
+These SIGs are retired but have not yet completed their mission.
+
+.. retired-sigtable::
+      :datafile: ../../archived-sigs.yaml
+
+Completed SIGs
+--------------
+
+These SIGs are retired and have completed their mission.
+
+.. retired-sigtable::
+      :datafile: ../../completed-sigs.yaml

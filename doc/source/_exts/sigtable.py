@@ -83,6 +83,8 @@ class SIGTable(Table):
         rows = []
 
         all_teams = _teams_yaml
+        if not all_teams:
+            return []
         for team in sorted(all_teams.keys()):
             trow = nodes.row()
             # Iterate over the headers in the same order every time.
@@ -123,6 +125,10 @@ class SIGTable(Table):
 
         return [table]
 
+class RetiredSIGTable(SIGTable):
+    HEADERS = ('Name', 'Status', 'Chairs', 'Scope', 'Reason')
+    WIDTHS = [15, 15, 25, 60, 60]
 
 def setup(app):
     app.add_directive('sigtable', SIGTable)
+    app.add_directive('retired-sigtable', RetiredSIGTable)

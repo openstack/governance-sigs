@@ -76,15 +76,60 @@ unknown
 
 SIG status is unknown, the TC is currently working to update its status.
 
+completed
+~~~~~~~~~
+
+This SIG's mission is considered completed and the SIG itself is retired.
+
+archived
+~~~~~~~~
+
+This SIG is considered retired but didn't complete its mission.
+
 Retiring a SIG
 --------------
 
 Inactive SIGs can be made "advisory" if SIG members are still available for
 answering questions, or they can be retired.
 
-To retire a SIG, propose a change that moves its definition from
-`SIG Governance`_ to the `Completed SIGs`_ file, removing the status field.
+Before retiring
+~~~~~~~~~~~~~~~
 
+Before considering to retire a SIG, you need to first provide discussion
+in community to make sure it's common agreement to retire it. This should at
+least include a mailing list. You can also consider to host an offical meeting
+to make sure opinions are received and noted.
+The next step is to take care of SIG resources. You need to make sure resources
+maintained by this SIG can find new maintainer group. Resources mean
+documentation, etherpads, Wiki pages, repositories, etc. Make sure these
+resources can be found even after SIG is retired.
+For repositories, you can consider to retire them (see
+`Repository retirement`_ process) or move it under other group's maintenance.
+
+For resources which are no longer needed (resources like IRC channels, meeting
+schedule, etc.), you need to delete them at this stage.
+
+Retire a mission completed SIG
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To retire a SIG which is considered mission completed. You need to propose a
+change that moves its definition from `SIG Governance`_ to the
+`Completed SIGs`_ file, changes the `status` field to `completed`, and changes
+the `reason` field to provide explanation why the SIG is considered completed
+and where we can found documentations or references (if any).
+
+
+Retire an archived SIG
+~~~~~~~~~~~~~~~~~~~~~~
+
+Be careful when you consider retiring a SIG which didn't finish its mission.
+You need to make sure discussions are made with clear agreement on retiring the
+SIG, and resources are well maintained (See `Before retiring`_).
+To retire a SIG which didn't finish it's mission, You need to propose a
+change that moves its definition from `SIG Governance`_ to the
+`Archived SIGs`_ file, changes the `status` field to `archived`, and changes
+the `reason` field to provide proper explanation why we archive the SIG as not
+completed and where we can find documentations or references (if any).
 
 Best practices for running a SIG
 ================================
@@ -187,7 +232,7 @@ A classic use case for a git repository in a SIG is to publish peer-reviewed
 documentation. Using `Sphinx`_ and `Zuul jobs`_ it is easy to publish
 documentation under `docs.openstack.org`_.
 
-A good example of such a repository is `openstack/auto-scaling-sig`, which
+A good example of such a repository is `openstack/auto-scaling-sig`_, which
 includes `Sphinx`_ configuration and `Zuul jobs`_ to publish the
 `Auto-scaling SIG docs`_.
 
@@ -206,7 +251,9 @@ in StoryBoard. Here is an `example for add config in gerrit/projects`_.
 .. _OpenStack Technical Committee: https://governance.openstack.org/tc/
 .. _example of a SIG creation request: https://review.opendev.org/#/c/632252/
 .. _OpenStack-discuss mailing-list: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
+.. _Repository retirement: ` https://docs.openstack.org/project-team-guide/repository.html#retiring-a-repository
 .. _Completed SIGs: https://opendev.org/openstack/governance-sigs/src/branch/master/completed-sigs.yaml
+.. _Archived SIGs: https://opendev.org/openstack/governance-sigs/src/branch/master/archived-sigs.yaml
 .. _IRC services: https://docs.openstack.org/infra/system-config/irc.html
 .. _example for adding status/meeting bot to channel: https://review.opendev.org/#/c/656796
 .. _example for adding meeting schedule: https://review.opendev.org/#/c/656810/

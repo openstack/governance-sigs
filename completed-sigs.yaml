@@ -1,3 +1,6 @@
+---
+
+# All SIGs here have completed their mission and are considered retired.
 Upgrade:
   chairs:
     - name: James Page
@@ -12,4 +15,9 @@ Upgrade:
     upgrades and online 'rolling' upgrades, by providing a forum for
     cross-project collaboration between operators and developers to
     document and codify best practice for upgrading OpenStack.
+  status: completed
+  reason: >
+    OpenStack is considered valid for both offline 'fast-forward' upgrades and
+    online 'rolling' upgrades. Therefore, we consider mission for Upgrade SIG
+    is completed.
   url: https://wiki.openstack.org/wiki/Upgrade_SIG
