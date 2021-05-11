@@ -28,7 +28,7 @@ class SIGTable(Table):
     """Insert the members table using the referenced file as source.
     """
     HEADERS = ('Name', 'Status', 'Chairs', 'Scope')
-    WIDTHS = [15, 15, 25, 60]
+    WIDTHS = [15, 15, 40, 80]
 
     option_spec = {'class': directives.class_option,
                    'name': directives.unchanged,
@@ -104,7 +104,7 @@ class SIGTable(Table):
                 elif h.lower() == "chairs":
                     chairs = []
                     for chair in all_teams[team]['chairs']:
-                        chairs.append("%s<br />" % (chair['name']))
+                        chairs.append("%s (%s, <br /> %s) <br /> <br />" % (chair['name'], chair['irc'], chair['email']))
                     cell = "".join(chairs)
                     entry = nodes.entry()
                     para = nodes.raw('', cell, format='html')
@@ -127,7 +127,7 @@ class SIGTable(Table):
 
 class RetiredSIGTable(SIGTable):
     HEADERS = ('Name', 'Status', 'Chairs', 'Scope', 'Reason')
-    WIDTHS = [15, 15, 25, 60, 60]
+    WIDTHS = [15, 15, 40, 60, 60]
 
 def setup(app):
     app.add_directive('sigtable', SIGTable)
