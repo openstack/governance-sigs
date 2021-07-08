@@ -10,7 +10,7 @@ OpenStack project.
 Contact
 -------
 
-* #openstack-infra channel on the Freenode IRC network
+* #openstack-infra channel on the OFTC IRC network
   (`logs <http://eavesdrop.openstack.org/irclogs/%23openstack-infra/>`_)
 * openstack-discuss@lists.openstack.org mailing list with ``[tact-sig]``
   in the subject line
