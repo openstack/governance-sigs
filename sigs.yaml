@@ -84,7 +84,7 @@ Cloud Research:
     space for researchers looking for guidance on how to evaluate their
     research work ( e.g., placement algorithms, model-free frameworks...etc.)
     in Openstack.
-  status: forming
+  status: active
   url: https://etherpad.opendev.org/p/cloud-research-sig
 
 Edge Computing:
