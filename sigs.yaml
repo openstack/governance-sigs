@@ -200,6 +200,9 @@ Multi-Arch:
     - name: Rico Lin
       irc: ricolin
       email: ricolin@ricolky.com
+    - name: Seongsoo Cho
+      irc: seongsoocho
+      email: ppiyakk2@printf.kr
   scope: >
     This SIG tracks and encourages efforts towards better support for OpenStack
     on CPU architectures other than x86_64. This includes providing documents,
