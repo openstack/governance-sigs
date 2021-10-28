@@ -331,18 +331,6 @@ Security:
   status: active
   url: https://wiki.openstack.org/wiki/Security-SIG
 
-Technical Writing:
-  chairs:
-    - name: Stephen Finucane
-      irc: stephenfin
-      email: sfinucan@redhat.com
-  scope: >
-    The technical writing SIG provides guidance, assistance, tooling, and style
-    guides enabling OpenStack project teams to produce consistent, accurate,
-    and high-quality documentation.
-  url: https://wiki.openstack.org/wiki/Documentation
-  status: active
-
 Testing and Collaboration Tools:
   chairs:
     - name: Jeremy Stanley
