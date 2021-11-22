@@ -104,7 +104,7 @@ Edge Computing:
   status: active
   url: https://wiki.openstack.org/wiki/Edge_Computing_Group
 
-Extended Maintenance:
+Stable Maintenance:
   chairs:
     - name: Elõd Illés
       irc: elod
