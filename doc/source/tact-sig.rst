@@ -65,3 +65,20 @@ The choice to rename was, in large part, because the term
 "infrastructure" perpetually confused newcomers to the community,
 and the SIG's formation was an opportunity to use something less
 overloaded.
+
+Opensearch
+----------
+
+The Opensearch service is a new version of the
+`Logstash Openstack <http://logstash.openstack.org/>`_.
+The service collects CI job results in one place, so the developer
+will be able to filter them by time or other criteria, see simple
+visualization for most common errors etc.
+
+To check the Opensearch service, you need to login with credentials that are
+described below:
+
+* url: https://opensearch.logs.openstack.org/_dashboards/app/discover?security_tenant=global
+* username: `openstack`
+* password: `openstack`
+* tenant: `global`
