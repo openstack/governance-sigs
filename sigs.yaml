@@ -316,9 +316,9 @@ Scientific:
 
 Security:
   chairs:
-    - name: Gage Hugo
-      irc: gagehugo
-      email: gagehugo@gmail.com
+    - name: Jeremy Stanley
+      irc: fungi
+      email: fungi@yuggoth.org
   scope: >
     The Security SIG (formerly Security Project) responsibilities include
     aiming to improve overall security of the various OpenStack projects,
